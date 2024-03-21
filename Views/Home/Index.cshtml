@@ -1,0 +1,25 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Seja bem-vindo @ViewBag.user.Name!</h1>
+    <body>
+
+        <h2>Nome: Leonardo Bruno de Sousa</h2>
+        <h2>RM: 552408</h2>
+        <h2>Turma: 2TDSA</h2>
+        <h3>Botão Divertido</h3>
+        
+        <button onclick="myFunction()">Clique em mim!</button>
+
+        <p id="demo"></p>
+
+        <script>
+            function myFunction() {
+                document.getElementById("demo").innerHTML = "São Paulo foi rebaixado em 1990";
+            }
+        </script>
+
+    </body>
+</div>
